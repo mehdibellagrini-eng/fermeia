@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #050508;
+  --neon-red: #FF003C;
+  --neon-green: #00FF88;
+  --neon-blue: #00AAFF;
+  --neon-purple: #AA00FF;
+}
+
+body {
+  background-color: var(--bg);
+  font-family: "JetBrains Mono", "Courier New", monospace;
+}
+
+/* ─── NEON BORDERS ─────────────────────────────────────────────────────────── */
+
+.neon-red {
+  border-color: rgba(255, 0, 60, 0.5);
+  box-shadow:
+    0 0 12px rgba(255, 0, 60, 0.2),
+    0 0 30px rgba(255, 0, 60, 0.08),
+    inset 0 0 20px rgba(255, 0, 60, 0.04);
+}
+
+.neon-green {
+  border-color: rgba(0, 255, 136, 0.5);
+  box-shadow:
+    0 0 12px rgba(0, 255, 136, 0.2),
+    0 0 30px rgba(0, 255, 136, 0.08),
+    inset 0 0 20px rgba(0, 255, 136, 0.04);
+}
+
+.neon-blue {
+  border-color: rgba(0, 170, 255, 0.5);
+  box-shadow:
+    0 0 12px rgba(0, 170, 255, 0.2),
+    0 0 30px rgba(0, 170, 255, 0.08),
+    inset 0 0 20px rgba(0, 170, 255, 0.04);
+}
+
+.neon-purple {
+  border-color: rgba(170, 0, 255, 0.5);
+  box-shadow:
+    0 0 12px rgba(170, 0, 255, 0.2),
+    0 0 30px rgba(170, 0, 255, 0.08),
+    inset 0 0 20px rgba(170, 0, 255, 0.04);
+}
+
+/* ─── PULSE ANIMATION ──────────────────────────────────────────────────────── */
+
+.dot-pulse {
+  border-radius: 50%;
+  animation: dotPulse 2s ease-in-out infinite;
+}
+
+@keyframes dotPulse {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50%       { transform: scale(1.5); opacity: 0.6; }
+}
+
+/* ─── TICKER ───────────────────────────────────────────────────────────────── */
+
+@keyframes ticker {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.ticker-inner {
+  display: flex;
+  gap: 3rem;
+  white-space: nowrap;
+  animation: ticker 40s linear infinite;
+}
+
+/* ─── SCANLINE OVERLAY ─────────────────────────────────────────────────────── */
+
+.scanline {
+  position: relative;
+  overflow: hidden;
+}
+
+.scanline::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 3px,
+    rgba(0, 0, 0, 0.04) 3px,
+    rgba(0, 0, 0, 0.04) 4px
+  );
+  pointer-events: none;
+  z-index: 10;
+}
+
+/* ─── STAT NUMBERS ─────────────────────────────────────────────────────────── */
+
+.stat-value {
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.03em;
+}
+
+/* ─── SCORE BAR ────────────────────────────────────────────────────────────── */
+
+.score-bar-track {
+  height: 3px;
+  background: #1a1a2e;
+  border-radius: 9999px;
+  overflow: hidden;
+}
+
+.score-bar-fill {
+  height: 100%;
+  border-radius: 9999px;
+  transition: width 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ─── BG GRID ──────────────────────────────────────────────────────────────── */
+
+.bg-grid {
+  background-image:
+    linear-gradient(rgba(255,255,255,0.018) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.018) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+/* ─── SIGNAL BADGE ─────────────────────────────────────────────────────────── */
+
+.signal-buy {
+  background: rgba(0,255,136,0.1);
+  border: 1px solid rgba(0,255,136,0.3);
+  color: #00FF88;
+}
+
+.signal-sell {
+  background: rgba(255,0,60,0.1);
+  border: 1px solid rgba(255,0,60,0.3);
+  color: #FF003C;
+}
+
+/* ─── CARD HOVER ───────────────────────────────────────────────────────────── */
+
+.zone-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.zone-card:hover {
+  transform: translateY(-1px);
+}
