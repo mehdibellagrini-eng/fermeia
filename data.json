@@ -1,0 +1,216 @@
+{
+  "ts": "2026-04-19T17:22:51",
+  "alertes": [
+    {
+      "niveau": "warning",
+      "message": "ElevenLabs Free Tier bloqué — recharge nécessaire"
+    },
+    {
+      "niveau": "warning",
+      "message": "Runway hors crédits — recharge nécessaire"
+    }
+  ],
+  "laHaut": {
+    "episodes_generes": 10,
+    "dernier_episode": "laHaut_2026-04-18_15-24_episode5_yt",
+    "score_viral_moyen": 78,
+    "prochain_prevu": "18h00",
+    "statut": "actif",
+    "liste_episodes": [
+      "laHaut_2026-04-18_15-24_episode5_yt.mp4",
+      "laHaut_2026-04-18_15-24_episode5.mp4",
+      "laHaut_2026-04-18_13-24_episode4_yt.mp4",
+      "laHaut_2026-04-18_13-24_episode4.mp4",
+      "laHaut_2026-04-18_12-46_episode1_ormuz_yt.mp4"
+    ],
+    "scripts_en_stock": 13,
+    "dernier_sujet": "En mars 2023, TotalEnergies a réglé sa première cargaison de gaz en yuan. Pas en dollars. En yuan.",
+    "statut_voix": "bloqué (ElevenLabs Free Tier)",
+    "statut_video": "hors crédits (Runway)"
+  },
+  "trading": {
+    "capital_usdt": "1000.00",
+    "positions_ouvertes": 0,
+    "pnl_jour": "+0.00$",
+    "palier": 1,
+    "statut": "actif",
+    "derniers_trades": [],
+    "nb_trades": 0,
+    "dernier_signal": {
+      "date": "2026-04-18 18:50",
+      "pair": "BTCUSDT",
+      "direction": "BUY",
+      "score": 48,
+      "prix": 75939.86,
+      "rsi_1h": 19.31,
+      "var_24h": -2.46
+    }
+  },
+  "dropshipping": {
+    "produits": [
+      {
+        "id": "114e8912",
+        "nom": "VITRO Screenless ECG Smartwatch With Real-Tim",
+        "prix": 69.99,
+        "url": "https://agent-ia-products.vercel.app/produit_114e8912_2026-04-19_13-23-41.html",
+        "statut": "en ligne",
+        "payment_link": true
+      },
+      {
+        "id": "1e486fdf",
+        "nom": "Rouleau Massant Acier Inox LED — Raffermissem",
+        "prix": 27.99,
+        "url": "https://agent-ia-products.vercel.app/produit_1e486fdf_2026-04-19_13-23-41.html",
+        "statut": "en ligne",
+        "payment_link": true
+      },
+      {
+        "id": "83c5ef0d",
+        "nom": "Rouleaux Sacs Sous Vide Alimentaire (x15)",
+        "prix": 14.99,
+        "url": "https://agent-ia-products.vercel.app/produit_83c5ef0d_2026-04-19_13-23-41.html",
+        "statut": "en ligne",
+        "payment_link": true
+      },
+      {
+        "id": "a79f6b55",
+        "nom": "Mini Projecteur 4K Portable — Cinéma à Domici",
+        "prix": 75.99,
+        "url": "https://agent-ia-products.vercel.app/produit_a79f6b55_2026-04-19_13-23-41.html",
+        "statut": "en ligne",
+        "payment_link": true
+      },
+      {
+        "id": "feb1d4af",
+        "nom": "Womens Fashion Color-Block V-Neck Sleeveless ",
+        "prix": 17.99,
+        "url": "https://agent-ia-products.vercel.app/produit_feb1d4af_2026-04-19_13-49-51.html",
+        "statut": "en ligne",
+        "payment_link": true
+      },
+      {
+        "id": "fe994c5a",
+        "nom": "Retro Lovewood Tray Fruit Plate Snack Organiz",
+        "prix": 23.36,
+        "url": null,
+        "statut": "hors ligne",
+        "payment_link": true
+      },
+      {
+        "id": "e2301853",
+        "nom": "925 Sterling Silver Handcrafted Hammered Silv",
+        "prix": 2550.96,
+        "url": null,
+        "statut": "hors ligne",
+        "payment_link": true
+      },
+      {
+        "id": "5ce1ab15",
+        "nom": "Rice-bead Phone Chain Colorful Beaded Wrist-s",
+        "prix": 6.96,
+        "url": null,
+        "statut": "hors ligne",
+        "payment_link": true
+      },
+      {
+        "id": "0622461d",
+        "nom": "Retro Bedside Table Lamp USB-charging Touch-s",
+        "prix": 15.81,
+        "url": null,
+        "statut": "hors ligne",
+        "payment_link": true
+      },
+      {
+        "id": "0a49c908",
+        "nom": "Krill Oil Multi-effect Nutrition Capsule",
+        "prix": 6.55,
+        "url": null,
+        "statut": "hors ligne",
+        "payment_link": true
+      }
+    ],
+    "ventes_stripe_jour": "—",
+    "deploiements": 0,
+    "statut": "actif",
+    "avec_stripe": 10,
+    "landing_pages": 39,
+    "derniere_sync": "2026-04-19 16:26"
+  },
+  "agents": {
+    "agents": [
+      {
+        "nom": "Veille",
+        "score": 78,
+        "statut": "actif",
+        "derniere_action": "22:38"
+      },
+      {
+        "nom": "Analyste",
+        "score": 80,
+        "statut": "actif",
+        "derniere_action": "22:38"
+      },
+      {
+        "nom": "Script",
+        "score": 85,
+        "statut": "actif",
+        "derniere_action": "22:18"
+      },
+      {
+        "nom": "Voix",
+        "score": 40,
+        "statut": "erreur",
+        "derniere_action": "22:27"
+      },
+      {
+        "nom": "Recherche",
+        "score": 75,
+        "statut": "actif",
+        "derniere_action": "22:17"
+      },
+      {
+        "nom": "Marketing",
+        "score": 72,
+        "statut": "actif",
+        "derniere_action": "22:18"
+      },
+      {
+        "nom": "Ferme",
+        "score": 74,
+        "statut": "actif",
+        "derniere_action": "—"
+      },
+      {
+        "nom": "Production",
+        "score": 60,
+        "statut": "actif",
+        "derniere_action": "—"
+      }
+    ],
+    "actifs": 7,
+    "erreurs": 1,
+    "statut": "actif",
+    "erreurs_recentes": [
+      {
+        "date": "2026-04-17 22:27:15",
+        "agent": "Agent Voix / ElevenLabs"
+      },
+      {
+        "date": "2026-04-17 22:31:16",
+        "agent": "Agent Voix / ElevenLabs"
+      },
+      {
+        "date": "2026-04-17 23:53:21",
+        "agent": "Agent Vidéo LÀ-HAUT"
+      },
+      {
+        "date": "2026-04-17 23:53:21",
+        "agent": "Agent Vidéo LÀ-HAUT"
+      },
+      {
+        "date": "2026-04-17 23:53:21",
+        "agent": "Agent Vidéo LÀ-HAUT"
+      }
+    ]
+  }
+}
